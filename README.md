@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The full version of my website consists of 6 HTML interfaces and includes 5 javascript. The home page is a file named "home.html". I've put all the CSS files in the styles directory and all the photos and icons in the "assets" directory. All JavaScript files can be found in a folder called "js". I host my project on Git Hub. If you need to visit the live website, please click this link: https://zhu01.github.io/home.html.
+The full version of my website consists of 6 HTML interfaces and includes 4 javascript. The home page is a file named "home.html". I've put all the CSS files in the styles directory and all the photos and icons in the "assets" directory. All JavaScript files can be found in a folder called "js". I host my project on Git Hub. If you need to visit the live website, please click this link: https://zhu01.github.io/home.html.
 
 In order to make my code more readable, I split my javascript part into five JavaScript files and named them with simple and clear names.
 
