@@ -1,2 +1,2 @@
-# CS60TP.github.io
-My Term Project of CS601
+# zhu01.github.io/home.html
+My Term Project for CS601
