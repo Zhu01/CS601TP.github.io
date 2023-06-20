@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style/navigationBar.css" />
+    <link type="text/css" rel="stylesheet" href="style/web.css" />
+    <link type="text/css" rel="stylesheet" href="style/aboutme.css" />
+    <link type="text/css" rel="stylesheet" href="style/print.css" />
+  </head>
+
+  <body>
+    <ul class="nave">
+      <li class="nav"><a href="home.html">Biography</a></li>
+      <li class="nav"><a class="active" href="aboutMe.html">About Me</a></li>
+      <li class="nav"><a href="myDegrees.html">My Degree</a></li>
+      <li class="nav"><a href="coffee.html">My Hobbies</a></li>
+      <li class="nav"><a href="myPets.html">My Pets</a></li>
+      <li class="nav"><a href="contact.html">Contact Me</a></li>
+    </ul>
+
+    <div class="header_wrapper">
+      <div class="page_logo">
+        <img src="assets/icon/aboutMe.png" alt="biography logo" height="70" />
+      </div>
+      <div class="nav_title">Here You can know some interesting about me!</div>
+    </div>
+
+    <main>
+      <h1>About Me</h1>
+
+      <section class="profile_card">
+        <div class="container_profile_card">
+          <div class="card">
+            <div class="card_left">
+              <img src="assets/images/photo.jpg" alt="profile" />
+              <div class="card_hidden">
+                <div class="name">Lingyi Zhu</div>
+                <div class="title">Full-Stack <span>Developer</span></div>
+                <hr />
+                <div class="description">
+                  Click on links to the right to learn more about me!
+                </div>
+              </div>
+            </div>
+            <div class="card_right">
+              <div class="name">Lingyi Zhu</div>
+              <table>
+                <tr>
+                  <th>Website</th>
+                  <th>Link</th>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      src="assets/icon/linkedin.png"
+                      alt="LinkedIn logo"
+                      height="50"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      href="https://www.linkedin.com/in/lingyi-zhu-a20204204/"
+                      target="_blank"
+                      >LinkedIn</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      src="assets/icon/github.png"
+                      alt="GitHub logo"
+                      height="50"
+                    />
+                  </td>
+                  <td>
+                    <a href="https://github.com/Zhu01" target="_blank"
+                      >GitHub</a
+                    >
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      src="assets/icon/email.png"
+                      alt="email logo"
+                      height="40"
+                    />
+                  </td>
+                  <td>
+                    <a
+                      href="mailto:zhu01@bu.edu?Subject=Hello%20World!"
+                      target="_blank"
+                      >Email Me</a
+                    >
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="hint">(Keep the mouse hovered over the image)</div>
+      </section>
+
+      <div class="container_flex">
+        <section class="hobbies">
+          <h2>My Hobbies:</h2>
+          <ul>
+            <li>
+              <a href="coffee.html">Coffee</a>
+              <ul>
+                <li>Latte art</li>
+                <li>Pour Over Coffee</li>
+                <li>Cupping</li>
+              </ul>
+            </li>
+            <li>Video Games</li>
+            <li>Rubik's Cube</li>
+            <li>Photography</li>
+            <li>Cooking</li>
+          </ul>
+        </section>
+
+        <section class="biography">
+          After reading my short biography, you should have a brief idea about
+          me. If you haven't read it yet, you can go this
+          <a href="home.html">page</a> first! This page is about my hobbies and
+          some of my contact information. Among those hobbies, I would like to
+          show you something interesting about coffee, you can click on coffee
+          for more information.
+        </section>
+      </div>
+    </main>
+
+    <details>
+      <summary>&copy; 2023. Lingyi Zhu. Open Source</summary>
+      Code validated with
+      <a href="http://validator.w3.org">The W3C Markup Validation Service</a>.
+      <br/>
+      Icon Download at
+      <a href="https://www.flaticon.com/">www.flaticon.com</a
+      >
+    </details>
+
+    <script src="js/nav.js"></script>
+  </body>
+</html>

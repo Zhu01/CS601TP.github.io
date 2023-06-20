@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a page that contains a form to contact Sheena."
+    />
+    <title>Contact Me</title>
+    <link type="text/css" rel="stylesheet" href="style/navigationBar.css" />
+    <link type="text/css" rel="stylesheet" href="style/web.css" />
+    <link type="text/css" rel="stylesheet" href="style/contact.css" />
+  </head>
+  <body>
+    <!-- website header with logo and navigation -->
+    <header class="page_top_navigation" id="bio_top">
+      <!-- main navigation bar for the website -->
+      <ul class="nave">
+        <li class="nav"><a href="home.html">Biography</a></li>
+        <li class="nav"><a href="aboutMe.html">About Me</a></li>
+        <li class="nav"><a href="myDegrees.html">My Degree</a></li>
+        <li class="nav"><a href="coffee.html">My Hobbies</a></li>
+        <li class="nav"><a href="myPets.html">My Pets</a></li>
+        <li class="nav">
+          <a class="active" href="contact.html">Contact Me</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="header_wrapper">
+      <div class="page_logo">
+        <img src="assets/icon/contact.png" alt="biography logo" height="70" />
+      </div>
+      <div class="nav_title">I can't wait to contact you!</div>
+    </div>
+
+    <!-- main contents of the contact page -->
+    <main>
+      <section class="single_column_section">
+        <!-- welcomes the user to the contact form -->
+        <h1 class="animated_heading">I Can't Wait to Hear From You</h1>
+
+        <!-- explanation of what to fill out/why to contact me -->
+        <p>
+          If you're interested or have something you'd like to talk to me about.
+        </p>
+        <p>Just fill in all the details in the contact form below 
+          and I'll get back to you as soon as possible
+        </p>
+      </section>
+
+      <!-- the contact form -->
+      <form
+        id="contact_form"
+        name="sheena_contact_form"
+        action="https://formspree.io/f/mknadybj"
+        method="post"
+      >
+        <!-- text inputs -->
+
+        <!-- first name -->
+        <div class="form_div">
+          <label for="firstName">First Name (required):</label>
+          <input type="text" name="firstName" id="firstName" required />
+
+          <!-- span for error message -->
+          <span id="first_name_error_msg" class="feedback">Invalid Input</span>
+        </div>
+
+        <!-- last name -->
+        <div class="form_div">
+          <label for="lastName">Last Name (required):</label>
+          <input type="text" name="lastName" id="lastName" required />
+
+          <!-- span for error message -->
+          <span id="last_name_error_msg" class="feedback">Invalid Input</span>
+        </div>
+
+        <!-- email address -->
+        <div class="form_div">
+          <label for="email">Email Address (required):</label>
+          <input type="email" name="email" id="email" required />
+
+          <!-- span for error message -->
+          <span id="email_error_msg" class="feedback">Invalid Input</span>
+        </div>
+
+        <!-- phone number -->
+        <div class="form_div">
+          <label for="phone">Phone Number (required):</label>
+          <input type="tel" name="phone" id="phone" required />
+
+          <!-- span for error message -->
+          <span id="phone_error_msg" class="feedback">Invalid Input</span>
+        </div>
+
+        <!-- radio button group to ask preferred way of contact -->
+        <div class="form_div">
+          <p class="form_p">Which contact method do you prefer?</p>
+          <label for="call">Call Me</label>
+          <input type="radio" id="call" name="contact_method" value="call" />
+
+          <label for="e_mail">Email Me</label>
+          <input
+            type="radio"
+            id="e_mail"
+            name="contact_method"
+            value="e_mail"
+          />
+        </div>
+
+        <!-- text area that contains the user's request -->
+        <div class="form_div">
+          <label for="message_box"
+            >Is there anything you want me to look out for?
+          </label>
+          <textarea
+            id="message_box"
+            name="message_box"
+            placeholder="Give me all the details about why you're reaching out."
+          ></textarea>
+        </div>
+
+        <!-- form submit button -->
+        <div class="form_btn">
+          <input type="submit" name="submitButton" value="Submit this Form" />
+        </div>
+      </form>
+    </main>
+
+    <details>
+      <summary>&copy; 2023. Lingyi Zhu. Open Source</summary>
+      Code validated with
+      <a href="http://validator.w3.org">The W3C Markup Validation Service</a>.
+      <br />
+      Icon Download at
+      <a href="https://www.flaticon.com/">www.flaticon.com</a>
+    </details>
+
+    <!-- scripts -->
+    <script src="js/nav.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

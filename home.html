@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="style/navigationBar.css" />
+    <link type="text/css" rel="stylesheet" href="style/web.css" />
+  </head>
+
+  <body>
+    <ul class="nave">
+      <li class="nav"><a class="active" href="home.html">Biography</a></li>
+      <li class="nav"><a href="aboutMe.html">About Me</a></li>
+      <li class="nav"><a href="myDegrees.html">My Degree</a></li>
+      <li class="nav"><a href="coffee.html">My Hobbies</a></li>
+      <li class="nav"><a href="myPets.html">My Pets</a></li>
+      <li class="nav"><a href="contact.html">Contact Me</a></li>
+    </ul>
+
+    <div class="header_wrapper">
+      <div class="page_logo">
+        <img src="assets/icon/biography.png" alt="biography logo" height="70" />
+      </div>
+      <div class="nav_title">Get to know me quickly through this page!</div>
+    </div>
+    <main>
+      <h1>Self introduction</h1>
+
+      <section class="biography long_paragraphs">
+        <p>
+          My name is <b>Lingyi Zhu</b>, or you can call me Leo, and I just
+          graduated from the CS program at BU MET. I have many hobbies, such as
+          photography and coffee. I started to get into boutique coffee in 2018.
+          My good friend took me to many boutique coffee shops, and then I
+          gradually started to learn about coffee. In the summer of 2019, I
+          became a barista. Then after working for a while, I decided to
+          continue studying. So I came to Boston University in 2020.
+          Coincidentally, the
+          <a href="https://sca.coffee" target="_blank">SCA</a> held a coffee
+          show in Boston in 2020. The Specialty Coffee Association (SCA) is a
+          trade association built on foundations of openness, inclusivity, and
+          the power of shared knowledge. I had a lot of fun at the show.
+        </p>
+        <p>
+          Now back to my major. wo started learning something about front-end. I
+          learned something about react and decided to take CS601 to learn more
+          about web development. My undergraduate degree is in computer science
+          from Auburn University. The more I learn about CS and all the possible
+          career paths within it, the less sure I am about what I really want to
+          do after graduation. I will be graduating at
+          <time datetime="2023-12">Dec 2023</time>. Currently, I am working on
+          becoming a full-stack developer, after mastering back-end development.
+          I hope to learn more about front-end development from this course.
+        </p>
+      </section>
+
+      <h2>Here is a webpage shows my academic experience:</h2>
+      <div class="center">
+        <button onclick="location.href='myDegrees.html' " id="btn">Click Here</button>
+      </div>
+
+      <section class="hint">
+        <h3>(You can use navigate bar on the Top to go other pages!)</h3>
+      </section>
+    </main>
+
+    <details>
+      <summary>&copy; 2023. Lingyi Zhu. Open Source</summary>
+      Code validated with
+      <a href="http://validator.w3.org">The W3C Markup Validation Service</a>.
+      <br/>
+      Icon Download at
+      <a href="https://www.flaticon.com/">www.flaticon.com</a
+      >
+    </details>
+  </body>
+  <script src="js/nav.js"></script>
+</html>

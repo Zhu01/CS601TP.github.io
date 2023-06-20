@@ -1,0 +1,114 @@
+.header_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-self: center;
+  margin: 0 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(
+    241,
+    235,
+    212
+  ); /* the background of all pages should be a dark blue */
+  width: 100%;
+  margin: 0;
+}
+
+.header_wrapper .page_logo {
+  padding-right: 20px;
+}
+
+.header_wrapper .nav_title {
+  margin-top: 8px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main {
+  margin: auto 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-bottom: 0em;
+}
+
+.container_flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* aboutme.html : more_info */
+.container_flex .hobbies ul {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.container_flex .biography {
+  flex-basis: 40%;
+}
+/* aboutme.html : more_info */
+
+.long_paragraphs p {
+  text-indent: 50px;
+  line-height: 180%;
+}
+
+p {
+  text-indent: 30px;
+}
+
+button {
+  color: #36352f;
+  background-color: #e76f51;
+  font-family: "Karla", Helvetica, Arial, "san serif"; /* fallback fonts set */
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  margin-top: 1rem; /* add breathing room to top of the button */
+  margin-bottom: 1rem; /* add breathing room to bottom of the button */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border-style: solid;
+  border-radius: 1.5rem;
+  border-color: #36352f;
+}
+button:hover {
+  background-color: #b73818;
+}
+caption {
+  caption-side: bottom;
+}
+
+details {
+  font-family: "Outfit", Helvetica, Arial, "san serif"; /* fallback fonts set */
+  font-weight: 700;
+  text-transform: uppercase; /* make footer copyright more noticeable */
+  font-size: 10px;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The different periods of my cat and dog</title>
+    <link rel="stylesheet" href="style/pets.css" />
+    <link type="text/css" rel="stylesheet" href="style/navigationBar.css" />
+    <link type="text/css" rel="stylesheet" href="style/web.css" />
+  </head>
+
+  <body>
+    <ul class="nave">
+      <li class="nav"><a href="home.html">Biography</a></li>
+      <li class="nav"><a href="aboutMe.html">About Me</a></li>
+      <li class="nav"><a href="myDegrees.html">My Degree</a></li>
+      <li class="nav"><a href="coffee.html">My Hobbies</a></li>
+      <li class="nav"><a class="active" href="myPets.html">My Pets</a></li>
+      <li class="nav"><a href="contact.html">Contact Me</a></li>
+    </ul>
+
+    <div class="header_wrapper">
+      <div class="page_logo">
+        <img src="assets/icon/pet.png" class="logo_image" alt="pet logo" />
+      </div>
+      <div class="nav_title">
+        Guess what they looked like when they were little?
+      </div>
+    </div>
+    <h3>
+      (Hover over the picture to see what they looked when they were little!)
+    </h3>
+
+    <section id="app">
+      <section v-for="i in 4">
+        <img
+          :src="getImgUrl(i)"
+          alt="Pet photos"
+          @mouseover="hoverOver(i)"
+          @mouseleave="hoverLeave(i)"
+        />
+        <div v-if="i==1" id="name">
+          <h2 v-if="i==1">Hi, I am Tangyuan!</h2>
+        </div>
+        <div v-if="i==2" id="name">
+          <h2 v-if="i==2">Hi, I am Cookie!</h2>
+        </div>
+        <div v-if="i==3" id="name">
+          <h2 v-if="i==3">Hi, I am Maggie!</h2>
+        </div>
+        <div v-if="i==4" id="name">
+          <h2 v-if="i==4">Hi, I am DD!</h2>
+        </div>
+      </section>
+    </section>
+
+    <details>
+      <summary>&copy; 2023. Lingyi Zhu. Open Source</summary>
+      Code validated with
+      <a href="http://validator.w3.org">The W3C Markup Validation Service</a>.
+      <br/>
+      Icon Download at
+      <a href="https://www.flaticon.com/">www.flaticon.com</a
+      >
+    </details>
+  </body>
+
+  <!--Include Vue-->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="js/pets.js"></script>
+  <script src="js/nav.js"></script>
+</html>

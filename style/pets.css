@@ -1,0 +1,59 @@
+.logo_image {
+  display: block; /*rather than inline */
+  width: 70px;
+  height: 70px;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  background-color: rgb(241, 235, 212);
+}
+
+#app section {
+  width: 22%;
+  margin: 0 10px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+img {
+  display: inline;
+  object-fit: cover;
+  width: 300px;
+  height: 400px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#name {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #36352f;
+  font-family: "Outfit", Helvetica, Arial, "san serif"; /* fallback fonts set */
+  font-weight: 900; /* heavier weight for h1 */
+  font-size: 35px;
+  line-height: 2.8rem;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #app section {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  #app section {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
