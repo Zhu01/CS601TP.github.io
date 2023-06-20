@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     let div = document.getElementById("container");
     div.innerHTML = "";
 
-    fetch("https://zhu01.github.io/degrees.json").then((response) => {
+    fetch("https://github.com/Zhu01/zhu01.github.io/blob/main/js/degrees.json").then((response) => {
       if (response.status == 200) {
         response.json().then((data) => {
           //Create a table
