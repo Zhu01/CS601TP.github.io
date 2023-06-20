@@ -16,7 +16,7 @@ For what it's worth, I have a total of six pages in my navbar. But after the use
 * When the user's mouse moves over the navigation bar or button, there will be a color change to let the user know that the mouse has moved to the correct position. There will also be additional underlining hints when moving over the navbar.
 * All hyperlinks, whether in or outside the navigation, have meaning in their names.
 
-###CSS styles
+### CSS styles
 * I use different CSS files for different interfaces and extract some common styles into separate files.
 * I have used a variety of selectors, including class selectors, element/type selectors, id selectors, and descendant selectors. My goal is to focus as much as possible on element/type and class selectors to ensure more reusable code.
 * I deliberately chose colors easily recognizable across the site and on surfaces so nothing is hard to read.
